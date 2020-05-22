@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fad665a4-81e4-434d-9384-266307f1f36f" name="Default Changelist" comment="" />
+    <list default="true" id="fad665a4-81e4-434d-9384-266307f1f36f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fd/recursion/AnagramApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fd/recursion/AnagramApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fd/recursion/AnagramApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fd/recursion/AnagramApp.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +19,7 @@
     <session id="-382400587">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -26,7 +32,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4905" />
+          <entry key="JAVA" value="4914" />
           <entry key="XML" value="33" />
         </counts>
       </usages-collector>
@@ -77,11 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fd/recursion/AnagramApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="278">
+              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -121,6 +124,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -169,6 +175,7 @@
     <option name="width" value="1395" />
     <option name="height" value="874" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -292,7 +299,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590056564247" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590056920880" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="E:/node/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -429,12 +436,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590025563124</updated>
-      <workItem from="1590025565446" duration="14689000" />
+      <workItem from="1590025565446" duration="14878000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14689000" />
+    <option name="totallyTimeSpent" value="14878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -444,7 +451,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.6751947" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.17407407" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.17407407" visible="true" weight="0.25" />
       <window_info id="Structure" order="6" sideWeight="0.82592595" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -453,8 +460,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5483871" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.21245828" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3496659" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21245828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -679,11 +686,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fd/recursion/AnagramApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="278">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
         </state>
       </provider>
     </entry>

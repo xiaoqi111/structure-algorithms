@@ -1,7 +1,5 @@
 package com.fd.recursion;
 
-import javafx.scene.transform.Rotate;
-
 import java.util.Arrays;
 
 /**
@@ -23,18 +21,14 @@ public class AnagramApp {
     // 3. 轮换
     public static void main(String[] args) {
 
-        String input = "abc";
-
+        String input = "abcd";
         size = input.length();
         chars = new char[size];
 
         for (int i = 0; i < size; i++) {
             chars[i] = input.charAt(i);
         }
-
-
         doAnagram(size);
-
     }
 
     /**
