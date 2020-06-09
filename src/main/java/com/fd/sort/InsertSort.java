@@ -1,4 +1,4 @@
-package com.fd.order;
+package com.fd.sort;
 
 import java.util.Arrays;
 
@@ -8,7 +8,7 @@ import java.util.Arrays;
  *  保证左边的序列是有序的，依次把右边的数据拿过来进行比较并移位
  *
  */
-public class InsertOrder {
+public class InsertSort {
 
     public static final Order DEFAULT_ORDER = Order.DESC;
 
@@ -17,11 +17,11 @@ public class InsertOrder {
 
     private Order order;
 
-    public InsertOrder(int maxSize) {
+    public InsertSort(int maxSize) {
        this(maxSize,DEFAULT_ORDER);
     }
 
-    public InsertOrder(int maxSize , Order order) {
+    public InsertSort(int maxSize , Order order) {
         element = new int[maxSize];
         this.order = order;
     }
@@ -41,7 +41,7 @@ public class InsertOrder {
         int length = this.element.length;
 
         final Order toOrder = this.order;
-        if (toOrder == null ) throw new RuntimeException(" order is full");
+        if (toOrder == null ) throw new RuntimeException(" sort is full");
 
         int temp,in;
         switch (toOrder){
@@ -98,7 +98,7 @@ public class InsertOrder {
 
 
     public static void main(String[] args) {
-        InsertOrder insertOrder = new InsertOrder(10, Order.ASC);
+        InsertSort insertOrder = new InsertSort(10, Order.ASC);
 
         for (int i = 0; i < 10; i++) {
             insertOrder.insert((int)(Math.random()*1000));

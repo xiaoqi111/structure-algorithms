@@ -1,4 +1,4 @@
-package com.fd.order;
+package com.fd.sort;
 
 import java.util.Arrays;
 
@@ -11,20 +11,20 @@ import java.util.Arrays;
  *      优点： 时间复杂度相对于简单排序O（n^2）,归并排序的时间复杂度是 O（N*LogN）
  *
  */
-public class MergeOrder {
+public class MergeSort {
 
-    public static final InsertOrder.Order DEFAULT_ORDER = InsertOrder.Order.DESC;
+    public static final InsertSort.Order DEFAULT_ORDER = InsertSort.Order.DESC;
 
     private int[] element;
     private int count;
 
-    private InsertOrder.Order order;
+    private InsertSort.Order order;
 
-    public MergeOrder(int maxSize) {
+    public MergeSort(int maxSize) {
         this(maxSize,DEFAULT_ORDER);
     }
 
-    public MergeOrder(int maxSize , InsertOrder.Order order) {
+    public MergeSort(int maxSize , InsertSort.Order order) {
         element = new int[maxSize];
         this.order = order;
     }
@@ -44,8 +44,8 @@ public class MergeOrder {
         int length = this.element.length;
         int[] sortArray = new int[length];
 
-        final InsertOrder.Order toOrder = this.order;
-        if (toOrder == null ) throw new RuntimeException(" order is full");
+        final InsertSort.Order toOrder = this.order;
+        if (toOrder == null ) throw new RuntimeException(" sort is full");
 
         recMergeSort(sortArray,0,length-1);
 
@@ -108,12 +108,12 @@ public class MergeOrder {
     }
 
 
-    public void setOrder(InsertOrder.Order order) {
+    public void setOrder(InsertSort.Order order) {
         this.order = order;
     }
 
     private boolean isAsc(int el ,int er){
-        return order == InsertOrder.Order.ASC ? el<er:el>er;
+        return order == InsertSort.Order.ASC ? el<er:el>er;
     }
 
     public void display(){
@@ -126,7 +126,7 @@ public class MergeOrder {
 
     public static void main(String[] args) {
 
-        MergeOrder order = new MergeOrder(10, InsertOrder.Order.DESC);
+        MergeSort order = new MergeSort(10, InsertSort.Order.DESC);
 
         for (int i = 0; i < 10; i++) {
             order.insert((int)(Math.random()*1000));
